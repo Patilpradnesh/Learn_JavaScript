@@ -51,21 +51,21 @@ Array ,objects,Functions,
  let myYoutubeName="pcpGood";
 
 
- let anotherName= myYoutubeName;
+ let anotherName = myYoutubeName;
  anotherName='grandpa';
 
- console.log( myYoutubeName);
+ console.log(myYoutubeName);
  console.log(anotherName);
 
- let user={
-    email: "userdata@gamil.com",
-    upi : "user@sbi"
+//  let user={
+//     email: "userdata@gamil.com",
+//     upi : "user@sbi"
 
- }
+//  }
 
- let user2 = user 
+//  let user2 = user 
 
- user2.email="google.com"
- console.log(user.email);
- console.log(user2.email);
+//  user2.email="google.com"
+//  console.log(user.email);
+//  console.log(user2.email);
  
