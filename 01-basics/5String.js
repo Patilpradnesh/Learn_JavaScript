@@ -37,6 +37,14 @@ console.log(newstring1.trimEnd());
 const url= "https://patilwebs%20goodweb";
 console.log(url.replace('%20','__'));
 console.log(url.includes('patil'));
-
+// it use to split the string into array based on the given separator
 console.log(gameName.split('-'));
 
+
+
+
+const data = "hey Patil its Char at method of string";
+let newData = data.charCodeAt(0);// it find the unicode value of the string
+let newData1 = data.charAt(4); // it find the postion value of the string
+console.log(newData1);
+console.log(newData);
