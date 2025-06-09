@@ -34,8 +34,13 @@
 // console.log(Math.floor(Math.random()*10000)+1000);
 
 
-const min=9999;
-const max= 1000;
+// const min=1;
+// const max= 6;
 
-console.log(Math.floor(Math.random()* (max-min+1))+min);
+// console.log(Math.floor(Math.random()* (max-min+1))+min);
 
+
+// rolling dies example 
+const value1 =((Math.random()*1000)+1);
+const value2=(Math.round(value1 %(1-7+1))+1);
+console.log(value2);
