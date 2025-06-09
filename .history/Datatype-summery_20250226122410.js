@@ -1,0 +1,14 @@
+// primitive data type
+/*
+there are 7 data types catogery
+string,
+Number,
+Boolean,
+null,
+unde
+
+
+
+
+
+*/
