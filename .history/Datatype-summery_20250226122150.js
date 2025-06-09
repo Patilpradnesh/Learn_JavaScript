@@ -1,9 +1,0 @@
-// primitive data type
-/*
-
-
-
-
-
-
-*
