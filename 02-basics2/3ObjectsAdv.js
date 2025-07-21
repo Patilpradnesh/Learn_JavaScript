@@ -104,4 +104,4 @@ console.log(courseInstructor)
 // destructuring means changing naming convention and formation
 const {courseInstructor :teacher}=course
 
-console.log(teacher)
+console.log(teacher) 
