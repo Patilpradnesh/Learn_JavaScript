@@ -129,4 +129,4 @@ function handelArray(arr){
 console.log(handelArray(myArray));// calling function with array as parameter
 
 // we can directly pass the array in function
-console.log(handelArray([100,200,300,400])); // calling function with array as parameter
+console.log(handelArray([100,200,300,400])); // calling function with array as parameter 
