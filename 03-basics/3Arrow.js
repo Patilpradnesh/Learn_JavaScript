@@ -50,3 +50,7 @@ console.log(addNums(10,120)); // calling addNum function with parameter 10 and
 
 
 // to written an object we need to rap object in parenthesis
+
+const data =(num1,num2)=>{username:"patil"}; // we can't written object like this we must use round bracket inside then curly braces with object values   
+console.log(data(10,20)); // calling data function with parameter 10 and 20
+// it will show undefined in console because we are not returning anything from the function
