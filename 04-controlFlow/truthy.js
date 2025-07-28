@@ -80,4 +80,10 @@ if (username){
 
     console.log(val1);
 
+    // TERNARY OPERATOR 
+// condition ? true :false; syntax  it use to define the condition that if first operation is ok then return true  else return false 
+    const iceTeaPrice=100;
+    iceTeaPrice<=80 ? console.log("less than 80"):console.log("more  than 80")
+
+
 
