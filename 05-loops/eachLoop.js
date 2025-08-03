@@ -48,6 +48,8 @@ const myCoding =[
 }
 ]
 
-myCoding.forEach((item)=>{
+myCoding.forEach((item,index,arr)=>{
     console.log(item.languageName);
+    console.log(index);
+    console.log(arr);
 })
