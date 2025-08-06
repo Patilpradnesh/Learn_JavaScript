@@ -1,0 +1,109 @@
+// in this file information related to dom is given 
+// it give Dom manipulation  information
+ 
+
+//  using getElementById 
+//  document.getElementById('id given to tag');
+
+
+// //  we can find multiple thing of it 
+
+// document.getElementById('id').id -- it give id 
+//  .class is give undefined
+//  .className it give class name 
+
+
+//  document .getElementById('id||class').getAttribute(id); similler of this there is another attributes
+//  a setAttribute (''id||class , value which need to give )
+
+// we can set styling also with the help of this dom manipulation 
+// id||class name .style.what ever style need to give that style 
+
+// ex:: title.style.backgroundColor ='green'
+
+// how to get content from the dom  
+// class|| id name . innerHTML it give proper all internal values and all the detail things present in side it include html tags 
+// class|| id name . innerText it give only visible thing as output 
+// class|| id name . textContent it give all the text format and hidden data of content  
+
+
+// we can access the element with the help of class name also 
+//document.getElementByClassName('heading')
+// it give the document information which is mention in parameter place 
+
+// selecting the element from the page  for that the querySelector is used 
+
+// document.querySelector('h1') -- it give the first h1 tag of page 
+// with help o this we can select the element by css selector
+// document.querySelector('.heading')
+// document.querySelector('#title')
+
+// we can select multiple selector with the help of querySelectorAll
+// document.querySelectorAll('input[type="password"]');
+
+
+//  suppose we want to select the first element of our list then we can use querySelector 
+// const myUl = document.querySelector('ul');
+
+// myUl.querySelector('li:first-child');
+//  this will give the first element of the list
+
+// const myUl = document.querySelector(' ul li:first-child');
+// myUl.style.backgroundColor = 'green'; // this will change the background color of the first list item to green
+
+myUl.innerText -- show internal current present text
+myUl.innerText= 'five';
+convert the internal text to five 
+
+
+// now selecting all the element 
+
+document.querySelectorAll('li')
+it give NodeList it look like array but not an array
+
+there is no map function in NodeList
+
+
+
+ give the NodeList [li,li,li]
+const tempList =Document.querySelectorAll('li')
+
+tempList style.color ='green'
+ it give error 
+ we have to mention the element that we want to manipulate with index values 
+ example : temList[0].style.color= 'orange' 
+
+
+we can use for each also
+
+const ListTemp = document.querySelectorAll('li');
+ListTemp.forEach(function (l){
+    l.style.color = 'blue';
+})
+
+for use map we need to convert the Nodelist to array first then we can apply the array functionality on that like map;
+
+
+
+document.getElementByClassName('list-item')
+ // it give htmlCollection 
+
+ const tempClassList document.getElementByClassName('list-item')
+
+  we can't apply for each on listTemp  so we need to convert the this to array 
+  for that use like this 
+  Array.from (listTemp)
+  it convert the htmlCollection to array Collection
+
+const myConverted = Array.from (listTemp)
+
+
+  now we can use html collection as array collection and access the element 
+
+  myConverted contain all that methods 
+
+  myConverted.forEach(function(li){
+    li.style.color ='orange'
+  })
+
+  
